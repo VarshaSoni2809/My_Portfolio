@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+<header><big><b>Student information form</b></big></header><br>
+<main>
+    <article> Please fill the form given below to confirm your registration.  </article>
+<section>
+    <form action="/form_response.php">
+<ol>
+<li><input type="text" placeholder="your name"></li><br>
+<!-- <li><input type="text" placeholder="branch"></li><br>
+<li><input type="text" placeholder="year"></li><br> -->
+<li><input type="text" placeholder="college id"></li><br>
+<li><input type="password" placeholder="password"></li><br>
+</ol>
+<label for="101">
+    <p>Choose residence:</p>
+    <!-- word can be selected too -->
+    <input type="radio" value="Hostel" name="residence" id="101">Hostel
+</label>
+<label for="102">
+    <input type="radio" value="Localite" name="residence" id="102">Localite
+</label>
+<br>
+<div id="A" class="graduation"> 
+    <p>Choose graduation:</p>
+    <input type="radio" value="Btech" name="degree" id="101">Btech
+    <input type="radio" value="Mtech" name="degree" id="102">Mtech
+</div><br>
+<p><big>Interest in:</big></p>
+<label for="id1">
+    <input type="checkbox" value="Digital Marketing" name="subject">Digital Marketing <br>
+    <input type="checkbox" value="Web Development" name="subject">Web Development <br>
+    <input type="checkbox" value="Compititive Programming" name="subject">Compititive Programming <br>
+    <input type="checkbox" value="App Development" name="subject">App Development
+</label>
+<br>
+<p>Select your branch:</p>
+<select name="branch" id="b1">
+    <option value="CS">CS</option>
+    <option value="IT">IT</option>
+    <option value="ETC">ETC</option>
+    <option value="MECH">MECH</option>
+    <option value="Civil">Civil</option>
+</select>
+<br>
+<p>Select your year:</p>
+<select name="year" id="y1">
+    <option value="I">I</option>
+    <option value="II">II</option>
+    <option value="III">III</option>
+    <option value="IV">IV</option>
+</select>
+<br>
+<p>Feedback:</p>
+<textarea name="suggestion" id="s" cols="30" rows="10" placeholder="your suggestion for university"></textarea>
+<br><br>
+<!-- <p>Submit your form : </p> -->
+<input type="submit" value="Submit">
+<br>
+<br>
+</form>
+</section>
+
+<aside>
+    <p>Additional Info:</p>
+<iframe width="560" height="315" src="https://www.ietdavv.edu.in/">IET-DAVV website</iframe>
+<br>
+<!-- <iframe width="560" height="315" src="https://en.wikipedia.org/wiki/Wikipedia"></iframe>
+<br> -->
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wfA4yEjJOuo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>IET-DAVV</iframe>
+<br>
+
+<video width="560" height="315" src="/nss p4.mp4" controls loop>NSS-IETDAVV</video>
+
+</aside>
+</main>
+<br>
+<footer>Thank you!</footer>
+
+</body>
+</html>
